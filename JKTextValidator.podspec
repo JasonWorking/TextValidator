@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JKTextValidator"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Class cluster for Text Validators in iOS, such as Email address, Chinese mobile phone number, etc..."
   s.description  = <<-DESC
                    A longer description of JKTextValidator in Markdown format.
@@ -17,11 +17,11 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://EXAMPLE/JKTextValidator"
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   s.author             = { "JasonWorking" => "331314708@qq.com" }
   s.social_media_url   = "http://twitter.com/iDev_Jason"
   s.platform     = :ios, "6.0"
-  s.source       = { :git => "https://github.com/JasonWorking/TextValidator.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/JasonWorking/TextValidator.git", :tag => "1.0.2" }
   s.source_files  = "*.{h,m}"
   s.framework  = "Foundation"
   s.requires_arc = true
