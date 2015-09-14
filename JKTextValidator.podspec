@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                    * A simple class cluster for Text Validators in iOS, such as Email address, Chinese mobile phone number, etc...
                    DESC
 
-  s.homepage     = "http://EXAMPLE/JKTextValidator"
+  s.homepage     = "https://github.com/JasonWorking/TextValidator"
   s.license      = "MIT"
   s.author             = { "JasonWorking" => "331314708@qq.com" }
   s.social_media_url   = "http://twitter.com/iDev_Jason"
