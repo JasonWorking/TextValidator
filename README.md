@@ -4,11 +4,12 @@ TextValidator
 A simple class cluster for Text Validators in iOS, such as Email address, Chinese mobile phone number, etc...
 
 
-### Usage 
+###Install 
 
-1. Download source files
-2. Drop JKTextValidator.h/m to your project.
-3. Alloc a validator and checkText. 
+	`pod 'JKTextValidator', '~> 1.0.2'`
+
+
+ Alloc a validator and checkText. 
 
 ```
 	JKTextValidator *validator = [JKTextValidator bankCardValidator];
